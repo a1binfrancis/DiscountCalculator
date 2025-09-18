@@ -94,9 +94,10 @@ export default function App() {
                 fontWeight: "600",
                 boxShadow:
                   "0 2px 8px rgba(58,123,213,0.4)",
+                transition: "all 0.3s ease",
               }}
-              onMouseEnter={e => e.currentTarget.style.background = "linear-gradient(135deg, #357ABD, #2a5d8f)"}
-              onMouseLeave={e => e.currentTarget.style.background = "linear-gradient(135deg, #4a90e2, #357ABD)"}
+              onMouseEnter={e => e.currentTarget.style.background = "linear-gradient(135deg, rgba(47, 56, 107, 1), rgba(39, 45, 82, 1))"}
+              onMouseLeave={e => e.currentTarget.style.background = "linear-gradient(135deg, rgba(39, 45, 82, 1), rgba(47, 56, 107, 1))"}
             >
               Calculate
             </Button>
@@ -112,6 +113,7 @@ export default function App() {
                 fontWeight: "600",
                 boxShadow:
                   "0 2px 8px rgba(108,117,125,0.4)",
+                transition: "all 0.3s ease",
               }}
               onMouseEnter={e => e.currentTarget.style.background = "linear-gradient(135deg, #495057, #343a40)"}
               onMouseLeave={e => e.currentTarget.style.background = "linear-gradient(135deg, #6c757d, #495057)"}
